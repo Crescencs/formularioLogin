@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+}
+.global-container {
+  color: #fff;
+  background-color: #0000;
+}
+.form-container {
+  width: 500px;
+  background-color: #24303c;
+  padding: 30px;
+  margin: auto;
+  margin-top: 5px;
+  border-radius: 10px;
+  font-family: monospace;
+  box-shadow: 7px 8px 20px #fff;
+}
+.form-container h2 {
+  text-align: center;
+  font-size: 35spx;
+  margin-bottom: 5px;
+}
+input {
+  width: 100%;
+  background-color: #24303c;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+  border: 1px solid #1f53c5;
+  font-family: monospace;
+  font-size: 18px;
+  color: #fff;
+}
