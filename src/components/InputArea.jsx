@@ -3,11 +3,11 @@ import InputType from '../atoms/InputType'
 
 function InputArea(prop) {
   return (
-    <div className="conteiner">
+    <form className="conteiner">
       <Label id={prop.id} label={prop.label} />
       <br />
       <InputType type={prop.type} id={prop.id} name={prop.id} />
-    </div>
+    </form>
   )
 }
 

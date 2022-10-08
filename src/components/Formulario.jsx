@@ -14,9 +14,10 @@ function Formulario() {
       type: 'password',
     },
   ]
+
   return (
     <>
-      <h2>Suscribete</h2>
+      <h2>Log in</h2>
       {InputType.map((tipo) => {
         return <InputArea label={tipo.label} id={tipo.id} type={tipo.type} />
       })}
