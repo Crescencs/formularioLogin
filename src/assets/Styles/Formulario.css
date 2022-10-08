@@ -1,10 +1,8 @@
 body {
   height: 100vh;
-}
-.global-container {
   color: #fff;
-  background-color: #0000;
 }
+
 .form-container {
   width: 500px;
   background-color: #24303c;
@@ -13,7 +11,6 @@ body {
   margin-top: 5px;
   border-radius: 10px;
   font-family: monospace;
-  box-shadow: 7px 8px 20px #fff;
 }
 .form-container h2 {
   text-align: center;
@@ -21,7 +18,7 @@ body {
   margin-bottom: 5px;
 }
 input {
-  width: 100%;
+  width: 95%;
   background-color: #24303c;
   padding: 10px;
   border-radius: 5px;
@@ -30,4 +27,11 @@ input {
   font-family: monospace;
   font-size: 18px;
   color: #fff;
+}
+.login-submit_btn {
+  background: #1f53c5;
+  border: none;
+  padding: 5px;
+  color: aliceblue;
+  width: 100%;
 }

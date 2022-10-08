@@ -1,28 +1,29 @@
-import InputArea from './InputArea'
-import titulo from '../assets/Styles/Main.css'
-
+import "../assets/Styles/Formulario.css";
 function Formulario() {
-  const InputType = [
-    {
-      id: 'user',
-      label: 'User: ',
-      type: 'text',
-    },
-    {
-      id: 'password',
-      label: 'Password: ',
-      type: 'password',
-    },
-  ]
-
   return (
     <>
-      <h2>Log in</h2>
-      {InputType.map((tipo) => {
-        return <InputArea label={tipo.label} id={tipo.id} type={tipo.type} />
-      })}
+      <div className="form-container">
+        <form action="">
+          <h2>Sign in</h2>
+          <div className="login-username">
+            <label htmlFor="username">Username:</label>
+            <input type="text" name="username" id="username" />
+          </div>
+          <div className="login-password">
+            <label htmlFor="password">Password:</label>
+            <input type="password" name="password" id="password" />
+          </div>
+          <div className="login-submit">
+            <input
+              type="submit"
+              value="Iniciar sesion"
+              className="login-submit_btn"
+            />
+          </div>
+        </form>
+      </div>
     </>
-  )
+  );
 }
 
-export default Formulario
+export default Formulario;
