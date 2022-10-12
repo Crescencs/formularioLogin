@@ -74,7 +74,8 @@ function Formulario() {
             />
           </div>
           <div className="login-submit">
-            <input type="submit" value="Log In" className="login-submit_btn" />
+            <button className="login-submit_btn">Log In</button>
+
           </div>
         </form>
       </div>
