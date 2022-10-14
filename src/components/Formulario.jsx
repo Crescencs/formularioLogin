@@ -50,28 +50,15 @@ function Formulario() {
           </div>
           <div className="login-LastName">
             <label htmlFor="lastname">LastName:</label>
-            <input
-              type="text"
-              value={lastname}
-              onChange={handleChangeLastname}
-            />
+            <input type="text" value={lastname} onChange={handleChangeLastname} />
           </div>
           <div className="login-username">
             <label htmlFor="username">Username:</label>
-            <input
-              type="text"
-              value={username}
-              onChange={handleChangeUsername}
-              onBlur={handleBlur}
-            />
+            <input type="text" value={username} onChange={handleChangeUsername} onBlur={handleBlur} />
           </div>
           <div className="login-password">
             <label htmlFor="password">Password:</label>
-            <input
-              type="password"
-              value={password}
-              onChange={handleChangePassword}
-            />
+            <input type="password" value={password} onChange={handleChangePassword} />
           </div>
           <div className="login-submit">
             <button className="login-submit_btn">Log In</button>
